@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CIRO",
+    "slug": "ciro-crisis-orchestrator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0f1e",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0f1e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ciro.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0f1e"
+      },
+      "package": "com.ciro.app",
+      "permissions": ["INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "supabaseUrl": "",
+      "supabaseAnonKey": "",
+      "webAppUrl": "http://localhost:3000"
+    }
+  }
+}
